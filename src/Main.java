@@ -1,4 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
+
+    private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         int miArreglo[] = {1,4,5,20,100};
         System.out.println(miArreglo[2]);
@@ -24,6 +28,16 @@ public class Main {
         for (int i = 0; i < arrayPersonas.length; i++) {
             System.out.println("Datos de la persona: " + arrayPersonas[i].toString());
         }
+
+        //Scanner
+        System.out.println("-------------------------------");
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        String nom = scan.next();
+        scan.close();
+
+        System.out.println(a);
+        System.out.println(nom);
 
 
     }

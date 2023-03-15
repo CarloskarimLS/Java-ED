@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433995fb-26b6-4290-8e42-d20ac0ceb0cb" name="Changes" comment="Primer Commit">
-      <change afterPath="$PROJECT_DIR$/src/Arreglo_Problema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EdadMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persona.java" afterDir="false" />
+    <list default="true" id="433995fb-26b6-4290-8e42-d20ac0ceb0cb" name="Changes" comment="Edad Mayor&#10;Arreglos">
+      <change afterPath="$PROJECT_DIR$/src/Par.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loops1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stidin2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -39,21 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Arreglo_Problema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arreglo_Problema" />
-      <module name="Java ED" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arreglos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arreglos" />
-      <module name="Java ED" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.loops1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java ED" />
@@ -61,11 +47,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Par" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Par" />
+      <module name="Java ED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loops1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loops1" />
+      <module name="Java ED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="output" />
+      <module name="Java ED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stidin2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stidin2" />
+      <module name="Java ED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.loops1" />
+        <item itemvalue="Application.output" />
+        <item itemvalue="Application.stidin2" />
+        <item itemvalue="Application.Par" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Arreglo_Problema" />
-        <item itemvalue="Application.Arreglos" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678765664736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edad Mayor&#10;Arreglos">
+      <created>1678902165513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678902165513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit" />
+    <MESSAGE value="Edad Mayor&#10;Arreglos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edad Mayor&#10;Arreglos" />
   </component>
 </project>
