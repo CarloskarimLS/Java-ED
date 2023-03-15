@@ -10,5 +10,22 @@ public class Main {
                 System.out.println("No se encuentra");
             }
         }
+
+        //Arreglo de objetos
+        System.out.println("-------------------------------");
+        //persona arrayPersonas[] = new persona[5];
+        //arrayPersonas[0] = new persona("Carlos", 22);
+        persona arrayPersonas[] = {new persona("Brenda", 42), new persona("Carlos",23),
+                                    new persona("Luna", 15), new persona("Juan", 34),
+                                    new persona("Luis", 23), new persona("Adrian", 23)};
+
+        System.out.println("La edad mayor del arreglo es: "+EdadMayor.personaMayor(arrayPersonas));
+        System.out.println("Los datos del arreglo son: ");
+        for (int i = 0; i < arrayPersonas.length; i++) {
+            System.out.println("Datos de la persona: " + arrayPersonas[i].toString());
+        }
+
+
     }
+
 }
