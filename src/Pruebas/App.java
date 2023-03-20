@@ -90,17 +90,43 @@ public class App {
 
     public void m9checarSiHayVocal(String text){
         String[] array = text.split("");
-        int contador = 0;
+        boolean isPresent = false;
         for (String s : array){
             if (s.equals("a") || s.equals("e") || s.equals("i") || s.equals("o") || s.equals("u")){
-                contador ++;
+                isPresent = true;
+                break;
             }
         }
-        if (contador >= 1){
-            System.out.println("Si hay vocal");
-        }else{
-            System.out.println("No hay vocal");
+        System.out.println(isPresent);
+
+    }
+
+    public void m9checarSiHayVocal2(String text){
+        boolean result = text.matches(".*[aeiou].*");
+        System.out.println(result);
+
+    }
+
+    public boolean m10Palindromo(String text){
+        text.toLowerCase();
+        for(int i= 0, j = text.length() -1; i<=j ; i++, j-- ){
+            if (text.charAt(i) != text.charAt(j)){
+                return false;
+            }
         }
+        return true;
+    }
+
+    public boolean m11Palindromo(String text){
+        boolean result = true;
+        int lenght = text.length();
+        for (int i = 0; i < lenght/2; i++) {
+            if(text.charAt(i) != text.charAt(lenght - i -1)){
+                result = false;
+                break;
+            }
+        }
+        return result;
     }
 
     public static void main(String[] args) {
@@ -115,6 +141,10 @@ public class App {
         app.m6IsLeapYear(2000);
         app.m7RandomOrderString("carlos");
         app.m8GetOnlyNotDuplicatesList(Arrays.asList(1,2,3,4,5,6,7,5,9,2));
-        app.m9checarSiHayVocal("g");
+        app.m9checarSiHayVocal("carlos");
+        app.m9checarSiHayVocal2("cs");
+        System.out.println(app.m10Palindromo("oso"));
+
+        System.out.println(app.m11Palindromo("oroo"));
     }
 }

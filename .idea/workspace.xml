@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="433995fb-26b6-4290-8e42-d20ac0ceb0cb" name="Changes" comment="Edad Mayor&#10;Arreglos">
-      <change afterPath="$PROJECT_DIR$/src/Pruebas/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pruebas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
